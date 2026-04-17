@@ -127,5 +127,38 @@
             new Swiper(".mySwiper", { loop: true, autoplay: { delay: 3000 }, pagination: { el: ".swiper-pagination" } });
         });
     </script>
+    <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/69e24b04f9ded71c340277cf/1jmdva2ub';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+<div id="ai-greeting" class="fixed bottom-24 right-6 z-[9999] hidden">
+    <div class="glass p-4 rounded-2xl border border-blue-500/50 shadow-2xl max-w-[240px] animate-bounce">
+        <p class="text-blue-400 font-bold text-xs mb-1">Trợ lý Sơn Hoàng:</p>
+        <p class="text-white text-[11px] italic">"Chào bạn! Tôi có thể giúp gì cho bạn về lịch trực hay tư vấn sức khỏe không?"</p>
+        <div class="flex gap-2 mt-2">
+            <button onclick="closeGreeting()" class="text-[10px] text-gray-500 hover:text-white transition">Đóng</button>
+            <a href="https://t.me/hoangnguyen775" target="_blank" class="text-[10px] bg-blue-600 text-white px-2 py-1 rounded">Qua Telegram</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Tự động hiện lời chào sau 3 giây để tạo cảm giác tự nhiên
+    setTimeout(function() {
+        document.getElementById('ai-greeting').classList.remove('hidden');
+    }, 3000);
+
+    function closeGreeting() {
+        document.getElementById('ai-greeting').style.display = 'none';
+    }
+</script>
 </body>
 </html>
