@@ -34,6 +34,7 @@
         .fc-button { background: #3b82f6 !important; border: none !important; }
         .fc-daygrid-day-number { color: #94a3b8; text-decoration: none !important; }
     </style>
+    
 </head>
 <body>
 
@@ -127,28 +128,7 @@
             new Swiper(".mySwiper", { loop: true, autoplay: { delay: 3000 }, pagination: { el: ".swiper-pagination" } });
         });
     </script>
-<script type="text/javascript">
-// Khai báo biến an toàn để tránh xung đột
-var Tawk_API = Tawk_API || {};
-var Tawk_LoadStart = new Date();
-
-(function(){
-    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/69e24b04f9ded71c340277cf/1jmdva2ub';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
-
-// Hàm mở chat thủ công khi người dùng click
-function manualChat() {
-    if (typeof Tawk_API !== "undefined" && Tawk_API.maximize) {
-        Tawk_API.maximize();
-    }
-}
-</script>
-
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="094bee6d-a7de-4b3c-a7da-257e75befcad";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 <div class="fixed bottom-6 right-6 z-[1000]">
     <button onclick="manualChat()" class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center shadow-2xl hover:bg-blue-700 transition-all">
         <i class="fa-solid fa-comment-dots text-white text-2xl"></i>
